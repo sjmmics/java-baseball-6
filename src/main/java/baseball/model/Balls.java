@@ -98,4 +98,12 @@ public class Balls {
         return ballsMayDuplicate.size() != ballsNotDuplicate.size();
     }
 
+    public int getFromIndex(int index) {
+        return balls.get(index);
+    }
+
+    public boolean contains(int userBall) {
+        return balls.contains(userBall);
+    }
+
 }

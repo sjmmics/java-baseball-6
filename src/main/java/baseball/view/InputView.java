@@ -14,6 +14,7 @@ public class InputView {
     }
 
     public String getPlayAgain() {
+        System.out.println(IOMessage.CLEAR_GAME);
         System.out.println(IOMessage.PLAY_ANOTHER);
         return Console.readLine();
     }
